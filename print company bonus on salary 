@@ -16,7 +16,6 @@ int main() {
 
     commission = basic_salary * 0.05;
     gross_salary = basic_salary + bonus + commission;
-
     printf("Bonus = %6.2f\n", bonus);
     printf("Commission = %6.2f\n", commission);
     printf("Gross salary = %6.2f\n", gross_salary);
