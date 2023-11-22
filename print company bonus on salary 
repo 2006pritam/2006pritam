@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main() {
+    float basic_salary, bonus, commission, gross_salary;
+
+    printf("Enter the basic salary: ");
+    scanf("%f", &basic_salary);
+
+    if (basic_salary <= 10000) {
+        bonus = basic_salary * 0.1;
+    } else if (basic_salary <= 20000) {
+        bonus = basic_salary * 0.15;
+    } else {
+        bonus = basic_salary * 0.2;
+    }
+
+    commission = basic_salary * 0.05;
+    gross_salary = basic_salary + bonus + commission;
+
+    printf("Bonus = %6.2f\n", bonus);
+    printf("Commission = %6.2f\n", commission);
+    printf("Gross salary = %6.2f\n", gross_salary);
+
+    return 0;
+}
