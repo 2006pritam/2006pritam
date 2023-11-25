@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main ()    
+void main ()    
 {    
     int arr[3][3], i, j;     
     printf("Enter 9 numbers:\n");      
@@ -22,6 +22,5 @@ int main ()
         {    
             printf("%d\t", arr[i][j]);    
         }  
-     return 0;  
     } 
 }
