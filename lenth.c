@@ -1,25 +1,21 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
-  int l, b, r,c,d,g,h;
+    char str[100];
+    int len;
 
-  printf("Enter the length of the rectangle: ");
-  scanf("%d", &l);
+    printf("Enter the string: ");
+    fgets(str, sizeof(str), stdin);
 
-  printf("Enter the breadth of the rectangle: ");
-  scanf("%d", &b);
+    // Remove the newline character if present
+    if (str[strlen(str) - 1] == '\n') {
+        str[strlen(str) - 1] = '\0';
+    }
 
-  printf("Enter the radius of the circle: ");
-  scanf("%d", &r);
- c= l * b;
- d= 2 * (l + b);
- g= 3.14 * r * r;
- h= 2 * 3.14 * r;
+    len = strlen(str);
 
-  // Print the results
-  printf("The area of the rectangle is %d\n",c);
-  printf("The perimeter of the rectangle is %d\n",d);
-  printf("The area of the circle is %f\n",g);
-  printf("The circumference of the circle is %f\n",h);
-  return 0;
+    printf("The length is %d\n", len);
+
+    return 0;
 }
