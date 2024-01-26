@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+main()
+{
+	char a[10];
+	int n,i,c;
+	printf("Enter the number");
+	gets(a);
+	for(i=0;i<strlen(a);++i)
+	{
+	printf("%c-----> %d\n",a[i],a[i]);
+    }
+    }
