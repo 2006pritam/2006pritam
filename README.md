@@ -22,7 +22,7 @@
 
 <p align="center">
   <a href="https://github.com/mrakmondal6612"> 
-    <img src="https://readme-typing-svg.herokuapp.com?color=E22FE4&width=380&height=28&lines=Hi👋+I'm+Ajay+Mondal.....;Nice+To+Meet+You+....&center=true"></a>
+    <img src="https://readme-typing-svg.herokuapp.com?color=E22FE4&width=380&height=28&lines=Hi👋+I'm+PRITAM+KUMAR+MODAK.....;Nice+To+Meet+You+....&center=true"></a>
 </p>
 
 <div id="header" align="center">  
